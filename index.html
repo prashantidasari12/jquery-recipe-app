@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Home Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<script src="w3schools.js"></script>
+	<!-- <script src="recipes.json"></script> -->
+	
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<p class="navbar-brand pull-right">Recipie App</p>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Grocery List</a></li>
+					<li><a href="#">Profile</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<ul class="nav nav-tabs">
+			<li class="active"><a data-toggle="tab" href="#popular-recipies">Popular Recipies</a></li>
+			<li><a data-toggle="tab" href="#follow-recipies">Follow Recipies</a></li>
+			<li><a data-toggle="tab" href="#top-chefs"> Top Chef</a></li>
+		</ul>
+		<div class="tab-content">
+			<div id="popular-recipies" class="tab-pane fade in active">
+				<div class="container-fluid popular-recipies_container" id="recipie-box">
+				</div>
+			</div>
+			<div id="follow-recipies" class="tab-pane">
+				<p>some content</p>
+			</div>
+			<div id="top-chefs" class="tab-pane">
+				<p>some content</p>
+			</div>
+		</div>
+	</div>
+<!-- 	<script src="recipie.js"></script>
+
+ -->
+ <script src="index.js"></script>
+</body>
+</html>

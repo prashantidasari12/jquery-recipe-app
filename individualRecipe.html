@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Home Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- <script src="w3schools.js"></script> -->
+	<!-- <script src="recipes.json"></script> -->
+	
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<p class="navbar-brand pull-right">Recipie App</p>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Grocery List</a></li>
+					<li><a href="#">Profile</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container margin-zero" id="individualRecipeContainer">
+		<div class="carousel slide" data-ride="carousel" id="allImages">
+			<div class="carousel-inner carousel-container" role="list-backgroundox" id="carouselRide">
+				<!-- <div class="item active" id="allImagesActive">
+				
+				</div> -->
+			</div>
+			<a class="left carousel-control" href="#allImages" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hiddem="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#allImages" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+			
+		</div>
+		<img class="chefImage img-circle" alt="chefImage"/>
+		<h1 id="recipeTitle"></h1>
+		<p class="text-center para-bottom-margin">By</p>
+		<p class="text-center para-bottom-margin" id="chefName"></p>
+		<p class="text-center" id="chefType"></p>
+		<p class="text-center" id ="recipeDescription"></p>
+		<ul class="text-center custom-border">
+			<li>
+				<p class="para-padding">Prep Time</p>
+				<p>12 mins</p>
+			</li>
+			<li>
+				<p class="para-padding">Cooking Time</p>
+				<p>15mins</p>
+			</li>
+			<li>
+				<p class="para-padding">Ready in</p>
+				<p>27 mins</p>
+			</li>
+		</ul>
+		<div class="list-background">
+			<p class="ingredientStyle">INGREDIENTS</p>
+			<ul id="ingredientList">		
+			</ul>
+		</div>
+		<div id="cookingDirection" class="list-background">
+			<p class="ingredientStyle">DIRECTIONS</p>
+			<ul id="cookingDirectionList">
+			</ul>
+		
+		</div>
+	</div>
+	<!-- <script src="recipie.js"></script> -->
+	<script src="individualRecipe.js"></script>
+</body>
+</html>

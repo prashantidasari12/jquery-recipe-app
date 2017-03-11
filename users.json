@@ -1,0 +1,73 @@
+var users = [{
+			"firstName": "James",
+			"lastName": "Franklin",
+			"email": "asdfasdf",
+			"password": "asdfasdf",
+			"avatar": "pp1.jpg",
+      		"chefType": "Pastry Chef"
+		},
+		{
+			"firstName": "Sophia",
+			"lastName": "Zoe",
+			"email": "asdfashjjdf",
+			"password": "asdfhjkasdf",
+			"avatar": "pp2.jpg",
+      		"chefType": "vegetable chef"
+		},
+	    {
+	      "firstName": "Emma",
+	      "lastName": "stark",
+	      "email": "asdfashjjdf",
+	      "password": "asdfhjkasdf",
+	      "avatar": "pp9.jpg",
+	      "chefType": "fish Chef"
+	    },
+	    {
+	      "firstName": "Lilly",
+	      "lastName": "Holzer",
+	      "email": "asdfashjjdf",
+	      "password": "asdfhjkasdf",
+	      "avatar": "pp3.jpg",
+	      "chefType": "gril Chef"
+	    },
+	    {
+	      "firstName": "Olivia",
+	      "lastName": "stone",
+	      "email": "asdfashjjdf",
+	      "password": "asdfhjkasdf",
+	      "avatar": "pp4.jpg",
+	      "chefType" :"Saute chef"
+	    },
+	    {
+	      "firstName": "brookstone",
+	      "lastName": "David",
+	      "email": "asdfashjjdf",
+	      "password": "asdfhjkasdf",
+	      "avatar": "pp1.jpg",
+	      "chefType": "roast chef"
+	    },
+	    {
+	      "firstName": "kevin",
+	      "lastName": "peters",
+	      "email": "asdfashjjdf",
+	      "password": "asdfhjkasdf",
+	      "avatar": "pp6.jpg",
+	      "chefType": "mixologist"
+	    },
+	    {
+	      "firstName": "Mia",
+	      "lastName": "stone",
+	      "email": "asdfashjjdf",
+	      "password": "asdfhjkasdf",
+	      "avatar": "pp7.jpg",
+	      "chefType": "Soup Chef"
+	    },
+	    {
+	      "firstName": "Warne",
+	      "lastName": "mark",
+	      "email": "asdfashjjdf",
+	      "password": "asdfhjkasdf",
+	      "avatar": "pp8.jpg",
+	      "chefType": "Italian chef"
+	    }
+		];
